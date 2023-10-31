@@ -1,0 +1,294 @@
+*{
+    font-family: Century Gothic;
+    background-color: #010326;
+    color: #eaf205;
+}
+
+nav {
+    width: 1250px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#searchContainer {
+    width: 900px;
+    margin: auto;
+    
+}
+
+#buscar {
+    font-size: 11pt;
+}
+
+.div-article {
+    width: 500px;
+    margin: auto;
+    
+    text-align: center;
+}
+
+.pokemon-card {
+    display: flex;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-card img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.pokemon-info {
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+label { 
+    margin-left: 340px;
+}
+
+input{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    outline: none;
+    font-family: Calibri;
+    color: #010326  ;
+    border-style: none;
+    
+}
+
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #eaf205;
+    border-style: none;
+    transition: background-color 0.3s;
+    font-size: 12PX;
+    font-family: Century Gothic;
+    font-weight: bolder;
+    border-radius: 50px;
+    color: #010326;
+}
+
+button:hover {
+    background-color: #02735e; 
+    color: black;
+}
+
+/* Estilos para botones de tipos de Pokémon */
+.tipo-normal {
+    background-color: #A8A878; 
+    color: white;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 60px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.tipo-fire {
+    background-color: #F08030; 
+    font-family: Century Gothic;
+    border-radius: 20px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+    width: 50px;
+}
+
+.tipo-water {
+    background-color: #6890F0; 
+    color: white;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.tipo-grass {
+    background-color: #78C850; 
+    font-family: Century Gothic;
+    border-radius: 20px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+    width: 50px;
+}
+
+.tipo-electric {
+    background-color: #F1CD2F;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 60px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.tipo-ice{
+    background-color: #9AD9D4;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 40px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.tipo-fighting {
+    background-color: #BE2F27;
+    color: white;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 60px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+} 
+
+.tipo-poison {
+    background-color: #9E419C;
+    color: white;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+} 
+
+.tipo-ground {
+    background-color: #E2BE67;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 65px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+
+
+.tipo-flying {
+    background-color: #A78EF3;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+    width: 50px;
+}
+
+.tipo-psychic {
+    background-color: #F35A83;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 55px;  
+    border: 1px solid #000; 
+    margin-right: 10px;   
+}
+
+.tipo-bug {
+    background-color: #AAB127;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 40px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.tipo-rock {
+    background-color: #BA9E35;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+    width: 50px;
+}
+
+.tipo-ghost {
+    background-color: #6E5799;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+    width: 50px;
+}
+
+.tipo-dark {
+    background-color: #6C5949;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.tipo-dragon {
+    background-color: #7132FE;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 60px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.tipo-steel {
+    background-color: #B7B7D2;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 45px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.tipo-fairy {
+    background-color: #F0B4B9;
+    color: black;
+    font-family: Century Gothic;
+    border-radius: 20px;
+    width: 45px;
+    border: 1px solid #000; 
+    margin-right: 10px; 
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block; /* Asegura que la imagen sea un bloque */
+  margin: 0 auto;   
+}
+
+main { 
+    width: 600px;
+    margin: auto;
+}
+
+.filtro {
+    width: 500px;
+    margin: auto;
+}
